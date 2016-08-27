@@ -3,7 +3,6 @@ body{
     padding: 0;
     overflow: hidden;
     position: relative;
-    background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.png');
 
 }
 
@@ -17,12 +16,13 @@ body{
 
 
 .jumbotron{
+    background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/bg.png');
     height: 100%;
-    width: 100%;
-    -webkit-background-size: cover;
+     -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
-    background-size: cover;
+          background-size: cover;
+
 }
 
 .menu ul{
